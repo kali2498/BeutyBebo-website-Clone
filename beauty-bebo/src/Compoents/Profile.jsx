@@ -7,6 +7,8 @@ import {
   TabPanel,
   Flex,
 } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
+import Home from "../Pages/Home";
 // <link
 // rel="stylesheet"
 // href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -18,16 +20,16 @@ import {
 export default function Profile() {
   return (
     <Flex>
-      <Tabs variant="soft-rounded" colorScheme="pink">
+      <Tabs variant="soft-rounded" colorScheme="pink"   w={"100%"}>
         <TabList
-          w={"100rem"}
+        
           border={"1px solid"}
-          pr={"13rem"}
           justifyContent={"center"}
           bg={"#dd0285"}
+          gap={'0.2rem'}
           // gap="1rem"
         >
-          <Tab color={"#FFF5F7"}>MAKEUP</Tab>
+          <Tab color={"#FFF5F7"}> MAKEUP</Tab>
           <Tab color={"#FFF5F7"}>SKIN</Tab>
           <Tab color={"#FFF5F7"}>HAIR</Tab>
           <Tab color={"#FFF5F7"}>PERSONAL CARE</Tab>
@@ -35,14 +37,15 @@ export default function Profile() {
           <Tab color={"#FFF5F7"}>FRAGRANCE</Tab>
           <Tab color={"#FFF5F7"}>AYURVEDA</Tab>
           <Tab color={"#FFF5F7"}>BRANDS</Tab>
-          <TabList ml={"11rem"}>
+          <TabList ml={"9rem"}>
             <Tab color={"#FFF5F7"}> MY CART</Tab>
           </TabList>
         </TabList>
 
         <TabPanels>
           <TabPanel>
-            <p>one!</p>
+            <p><Home /></p>
+            
           </TabPanel>
           <TabPanel>
             <p>two!</p>
