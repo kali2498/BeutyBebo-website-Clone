@@ -50,9 +50,9 @@ export default function Navbar() {
               "https://www.beautybebo.com/pub/media/logo/default/beautybebo_1.png"
             }
             cursor="pointer"
-            maxWidth="16rem"
+            maxWidth="15rem"
             maxHeight="13rem"
-            height={"5rem"}
+            height={"4rem"}
             alt="Logo"
             // bgColor="#318FFB"
           ></Image>
@@ -115,6 +115,7 @@ export default function Navbar() {
             border={"1px solid blue"}
             w={"10rem"}
             pl={"2rem"}
+            mt={'1rem'}
           >
             <Text paddingTop="0.3rem" pl={"2rem"}>
               Add Account

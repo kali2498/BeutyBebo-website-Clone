@@ -11,7 +11,6 @@ function App() {
       <ImageNavbar />
       <Navbar />
       <Profile />
-
       <AllRoutes />
     </div>
   );

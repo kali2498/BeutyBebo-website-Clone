@@ -8,7 +8,7 @@ export default function ImageNavbar() {
         src="https://www.beautybebo.com/pub/media/ads/ad-desktop.jpg"
         alt="navbarpatti"
         cursor="pointer"
-        maxWidth="100rem"
+        maxWidth="100%"
         maxHeight="11rem"
         height={"4rem"}
       />
