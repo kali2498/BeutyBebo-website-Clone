@@ -1,4 +1,59 @@
-.sidebar_class{
-    border: 1px solid red;
-    padding:1.2rem;
+.sidebar_class {
+  border: 1px solid red;
+  padding: 1.2rem;
+}
+.Compoent_2 {
+  border: 1px solid red;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+.Compoent_2 img {
+  width: 100%;
+}
+
+.compoent_3 {
+  border: 3px solid red;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+.compoent_3 div {
+  border: 3px solid red;
+  padding: 20px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.compoent_3 img {
+  width: 90%;
+}
+
+.compoent_3 h3 {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.compoent_3 h4 {
+  text-align: center;
+  margin-top: 20px;
+}
+.compoent_3 button {
+  text-align: center;
+  margin-left: 90px;
+  margin-top: 20px;
+}
+.head {
+  margin-top: 11px;
+}
+
+
+.Compoent_4{
+  border: 1px solid red;
+  margin-top: 20px;
+}
+.Compoent_4 img{
+ width: 100%;
 }
