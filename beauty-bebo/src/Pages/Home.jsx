@@ -2,8 +2,9 @@ import React from "react";
 import { Box, Button, Flex, Heading, Image, Spacer } from "@chakra-ui/react";
 import style from "./Home.module.css";
 import SimpleImageSlider from "react-simple-image-slider";
-export default function home_data() {
-
+import HomeTabs from "./HomeTabs";
+import ReadMoreorReadLess from "./ReadMoreorReadLess";
+import Footer from "./Footer"
 
 const images = [
   {
@@ -81,7 +82,7 @@ export default function Home() {
                 <img src={el.url} />
                 <h3> {el.name}</h3>
                 <h4>Price : {el.price}</h4>
-                <Button colorScheme="teal" variant="outline">
+                <Button colorScheme="teal" variant="outline" >
                   Button
                 </Button>
               </div>
@@ -106,9 +107,31 @@ export default function Home() {
         </Box>
       </Flex>
 
- 
+      <HomeTabs />
+
+      <div>
+        <Box className={style.Compoent_2}>
+          <Image
+            src="https://www.beautybebo.com/pub/media/ads/Forent_Banner_5-min.jpg"
+            alt="Dan Abramov"
+          />
+        </Box>
+      </div>
+
+      <div>
+        <Box className={style.Compoent_2}>
+          <Image
+            src="https://www.beautybebo.com/pub/media/ads/1599-Forent-banner-4.gif"
+            alt="Dan Abramov"
+          />
+        </Box>
+
+         <ReadMoreorReadLess />
+      </div>
 
 
+
+    <p><Footer /></p>
     </>
   );
 }

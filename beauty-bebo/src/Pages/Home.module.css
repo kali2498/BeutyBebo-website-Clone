@@ -1,9 +1,9 @@
 .sidebar_class {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   padding: 1.2rem;
 }
 .Compoent_2 {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   height: auto;
   margin-top: 20px;
@@ -13,14 +13,14 @@
 }
 
 .compoent_3 {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   margin-top: 20px;
 }
 .compoent_3 div {
-  border: 3px solid red;
+  /* border: 3px solid red; */
   padding: 20px;
   font-weight: bold;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -49,11 +49,113 @@
   margin-top: 11px;
 }
 
-
-.Compoent_4{
-  border: 1px solid red;
+.Compoent_4 {
+  /* border: 1px solid red; */
   margin-top: 20px;
 }
-.Compoent_4 img{
- width: 100%;
+.Compoent_4 img {
+  width: 100%;
+}
+
+.homeTabs_Compoents1 {
+  /* border: 1px solid black; */
+  margin-top: 20px;
+}
+
+.textcenter {
+  /* border:1px solid red; */
+  margin-left: 14px;
+}
+
+.textcenter {
+  /* border:1px solid red; */
+  margin-left: 14px;
+}
+.textcenter:hover {
+  /* border:1px solid red; */
+  background-color: "#DD0285";
+  margin-left: 14px;
+}
+
+.homeTabs_Compoents_2 {
+  /* border: 3px solid red; */
+  text-align: center;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.homeTabs_Compoents_2 img {
+  /* border: 1px solid red; */
+  width: 80%;
+  height: 310px;
+  margin-left: 23px;
+}
+.homeTabs_Compoents_2 h3 {
+  /* border: 3px solid red; */
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: serif;
+  font-weight: bold;
+}
+.homeTabs_Compoents_2 h4 {
+  /* border: 3px solid red; */
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 12px;
+  font-size: 14px;
+  font-family: serif;
+  font-weight: bold;
+}
+.pricetag {
+  font-weight: bold;
+}
+.pricenumber {
+  color: rgb(5, 182, 5);
+}
+
+.homeTabs_Compoents_2 button {
+  /* border: 3px solid red; */
+  text-align: center;
+
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.beutymakup_hometab {
+  /* border: 1px solid black; */
+  display: flex;
+  gap: 20px;
+}
+
+
+.title{
+  /* border: 1px solid red; */
+  margin-top: 18px;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+
+}
+.title h1{
+  /* border: 1px solid red; */
+  font-size: 25px;
+  color: #666666;
+  font-family: sans-serif;
+  margin-bottom: 12px;
+}
+.title h3{
+  /* border: 1px solid red; */
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.title p{
+  /* border: 1px solid rgb(79, 74, 74); */
+  line-height: 22px;
+  color: #666666;
+  font-size: 16px;
 }

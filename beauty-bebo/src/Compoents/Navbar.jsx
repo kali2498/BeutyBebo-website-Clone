@@ -4,25 +4,25 @@ import {
   Button,
   ButtonGroup,
   Flex,
+  Icon,
   IconButton,
   Image,
   Input,
+  Link,
   Select,
   Spacer,
   Text,
 } from "@chakra-ui/react";
 
-import style from "./navbarBottomSelect.css";
+import style from "./Navbar.module.css";
 
-// <link
-// rel="stylesheet"
-// href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-// integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-// crossorigin="anonymous"
-// referrerpolicy="no-referrer"
-// />
+import { useNavigate } from 'react-router-dom'
+import Signup from "./Signup";
+import { PhoneIcon, AddIcon, WarningIcon,SearchIcon } from '@chakra-ui/icons'
+
 
 export default function Navbar() {
+
   return (
     <Box className={style.selectTag} bg={"white"}>
       <Flex
@@ -94,6 +94,8 @@ export default function Navbar() {
               placeholder="Search By Keyword"
               width={"25rem"}
               // border="1px solid"
+          
+             
               color={"lightgray"}
               fontSize={"0.8rem"}
               //  onChange={(e)=>setSearchValue(e.target.value)}
@@ -104,22 +106,23 @@ export default function Navbar() {
               color={"white"}
               fontSize="1.5rem"
               borderRadius={"0"}
+              leftIcon={<SearchIcon />}
               //   onClick={()=>Search()}
             />
+           
           </Flex>
         </Flex>
 
         <Box>
           <Flex
-            marginTop="1.6rem"
-            border={"1px solid blue"}
-            w={"10rem"}
+            marginTop="3rem"
+            w={"14rem"}
             pl={"2rem"}
-            mt={'1rem'}
+            mt={'0.8rem'}
           >
-            <Text paddingTop="0.3rem" pl={"2rem"}>
-              Add Account
-            </Text>
+          
+           <Button className={style.signupPage} bg={"#DD0285"} color={'white'} > Signup</Button>
+           <Button bg={"#DD0285"} color={'white'}>login</Button>
           </Flex>
         </Box>
       </Flex>
