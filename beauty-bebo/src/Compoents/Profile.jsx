@@ -37,6 +37,7 @@ export default function Profile() {
           <Tab color={"#FFF5F7"}>FRAGRANCE</Tab>
           <Tab color={"#FFF5F7"}>AYURVEDA</Tab>
           <Tab color={"#FFF5F7"}>BRANDS</Tab>
+          
           <TabList ml={"9rem"}>
             <Tab color={"#FFF5F7"}> MY CART</Tab>
           </TabList>

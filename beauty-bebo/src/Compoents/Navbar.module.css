@@ -1,4 +1,10 @@
 .selectTag{ 
-    border: 2px solid red;
+    /* border: 2px solid red; */
   
+}
+.signupPage{
+    border: 1px solid red;
+    margin-right: 25px;
+  
+   
 }
