@@ -1,1 +1,1 @@
-I have cloned some features from beutybebo.com website. It is an educational platform that provides some online courses to build the career. In this project, I have created signup and login feature, home page with navbar and footer, all courses page, single course page, my learning plan feature, etc.
+
