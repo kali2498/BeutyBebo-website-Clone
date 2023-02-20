@@ -1,7 +1,7 @@
 <h1>
 BeutyBebo-website-Clone</h1>
 
-<h2>Beauty Bebo is India's fastest growing online retail store for the day to day and special occasion need of the Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products. We at Beauty Bebo are committed to provide genuine products on fair price to our customers.</h2>
+Beauty Bebo is India's fastest growing online retail store for the day to day and special occasion need of the Makeup, Skin care, Hair care, Personal care, Mom and Baby care, Fragrance and Ayurveda products. We at Beauty Bebo are committed to provide genuine products on fair price to our customers.
 
 
 ![Screenshot (2435)](https://user-images.githubusercontent.com/103638485/207078940-4db813e5-0c90-429d-97c0-379b7acb8cbf.png)
